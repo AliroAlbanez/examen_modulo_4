@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+    <variable
+        name="cambio"
+        type="com.example.aboutme.MainActivity" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/botonSiguiente"
+            android:layout_width="111dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/botones"
+            android:drawableTop="@android:drawable/ic_menu_search"
+            android:onClick="onClickFriend"
+            android:text="Contacto"
+            android:textColor="@color/white"
+            app:backgroundTint="@null"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="730dp"
+            android:layout_height="69dp"
+            android:text="2 Años de Experiencia"
+            android:textAlignment="gravity"
+            android:textColor="#C1A3A3"
+            android:textSize="34sp"
+            android:background="@drawable/color_texto"
+            android:fontFamily="@font/playball"
+            android:gravity="center"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

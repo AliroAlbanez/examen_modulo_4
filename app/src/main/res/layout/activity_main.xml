@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondohor"
+        tools:viewBindingIgnore="true"
+        tools:ignore="MissingDefaultResource">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="398dp"
+            android:layout_height="149dp"
+            android:layout_marginBottom="68dp"
+            android:background="@drawable/color_texto"
+            android:fontFamily="@font/playball"
+            android:gravity="center"
+            android:text="Hola!! Soy Aliro Albanez y soy Analista Programador Computacional"
+            android:textAlignment="gravity"
+            android:textColor="#C1A3A3"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
